@@ -1,8 +1,8 @@
 #glaw{
   display:inline-block;
-  width:880px;
+  width:800px;
 }
-.block0 {
+.block{
   float:top;
   margin:5px 5px 5px 5px;
   background: #4682B4;
@@ -14,7 +14,7 @@
   box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
 
 }
-.block1, .block2, .block3{
+.block1{
   float:left;
   margin:5px 5px 5px 5px;
   background: #4682B4;
@@ -26,7 +26,7 @@
   box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
 }
 
- .block4, .block5, .block6, .block7{
+ .block2{
   float:left;
   margin:5px 5px 5px 5px;
   background: #4682B4;
@@ -37,3 +37,4 @@
   border-radius: 4px;
   box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
 }
+
