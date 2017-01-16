@@ -1,0 +1,39 @@
+#glaw{
+  display:inline-block;
+  width:880px;
+}
+.block0 {
+  float:top;
+  margin:5px 5px 5px 5px;
+  background: #4682B4;
+  width:1000px;
+  height:200px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
+
+}
+.block1, .block2, .block3{
+  float:left;
+  margin:5px 5px 5px 5px;
+  background: #4682B4;
+  width:150px;
+  height:100px;
+  padding: 50px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
+}
+
+ .block4, .block5, .block6, .block7{
+  float:left;
+  margin:5px 5px 5px 5px;
+  background: #4682B4;
+  width:170px;
+  height:100px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
+}
