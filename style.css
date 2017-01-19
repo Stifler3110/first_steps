@@ -4,7 +4,7 @@
 }
 .block{
     margin:5px 5px 5px 5px;
-    background: #4682B4;
+    background: #2196F3;
     height:200px;
     padding: 5px;
     text-align: center;
@@ -19,7 +19,7 @@
 .block1{
     display: inline-block;
     margin:5px 5px 5px 5px;
-    background: #4682B4;
+    background: #2196F3;
     width:19.2%;
     height:100px;
     padding: 50px;
@@ -34,7 +34,7 @@
 .block2{
     display: inline-block;
     margin:5px 5px 5px 5px;
-    background: #4682B4;
+    background: #2196F3;
     width:21.3%;
     height:100px;
     padding: 8px;
@@ -42,3 +42,4 @@
     border-radius: 4px;
     box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
 }
+
