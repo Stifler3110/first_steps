@@ -2,7 +2,6 @@
     
 
 	p, h1, h2, h3, h4 {
-	color:green;
 	font-size:25px;
 }
 
@@ -12,11 +11,8 @@
     width:auto;
 }
 .block{
-    margin:5px;
     background: #2196F3;
-    height:200px;
     padding: auto;
-    text-align: center;
 }
 
 #three-col {
@@ -24,36 +20,23 @@
 }
 
 .block1{
-    display: inline-block;
-    margin:4%;
+    margin:3%;
     background: #2196F3;
-    width:25%;
-    height:100px;
-    padding: 50px;
-    text-align: center;
+    width:15%;
 }
 
 #block3{
     display: block;
     margin:auto;
-    background: #2196F3;
-    width:50%;
-    height:100px;
-    padding: 50px;
-    text-align: center;
+    width:25%;
 }
 
 #four-col {
     width: auto;
 }
 .block2{
-    display: inline-block;
     margin:4%;
-    background: #2196F3;
     width:23%;
-    height:100px;
-    padding: 8px;
-    text-align: center;
 
 	}
 
@@ -82,9 +65,6 @@
     margin:10%;
     background: #BBDEFB;
     width:40%;
-    height:100px;
-    padding: 50px;
-    text-align: center;
 
 }
 
@@ -95,13 +75,10 @@
 }
 
 	.block2{
-    display: block;
     margin:15%;
     background: #BBDEFB;
     width:55%;
-    height:100px;
     padding: 10px;
-    text-align: center;
 
 	}
 }
