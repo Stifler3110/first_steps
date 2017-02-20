@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="mylist">
+    <span>Open Me!</span>
+    <input type="button" class="button" onclick="showHide('list_id')" value="Open">
+    <ul id="list_id">
+      <li>shit</li>
+      <li>piss</li>
+      <li>fuck</li>
+      <li>cunt</li>
+      <li>cocksucker</li>
+      <li>motherfucker</li>
+      <li>tits</li>
+      <li>fart</li>
+      <li>turd</li>
+      <p>and</p>
+      <input type="button" class="button" onclick="showHide('list2_id')" value="What?">
+      <ul id="list2_id">
+        <li>twat</li>
+      </ul>
+    </ul>
+  </div>
+</body>
+
+</html>
