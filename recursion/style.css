@@ -1,0 +1,10 @@
+ul {
+  color: blue;
+  font-weight: bolder;
+}
+#parent_ul {
+  color: green;
+}
+.toggle {
+  border-radius: 10px;
+}
