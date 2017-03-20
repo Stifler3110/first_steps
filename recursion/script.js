@@ -20,7 +20,6 @@ function createArray() {
                 id = ++id;
                 createList(arr[i], innerUl);
                 ul.appendChild(innerUl);
-
             } else {
                 const li = document.createElement('li');
                 li.appendChild(document.createTextNode(arr[i]));
