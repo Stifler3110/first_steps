@@ -1,0 +1,127 @@
+#parent {
+  width:100%;
+  }
+
+#header {
+  position: relative;
+  width: auto;
+  top: 0;
+}
+
+#menu_wrapper {
+  position: static;
+  width: auto;
+}
+
+button, input {
+  cursor: pointer;
+}
+
+#menu_bar {
+position: absolute;
+width: 4%;
+height: 16%;
+color: white;
+background: #202328;
+border-color: #2a2c30;
+border-style: solid;
+left: 3%;
+}
+
+#rss_bar {
+  position: absolute;
+  width: 4%;
+  height: 16%;
+  color: white;
+  background: #202328;
+  border-color: #2a2c30;
+  border-style: solid;
+  right: 19%;
+}
+
+#twitter_bar {
+  position: absolute;
+  width: 4%;
+  height: 16%;
+  color: white;
+  background: #202328;
+  border-color: #2a2c30;
+  border-style: solid;
+  right: 15%;
+}
+
+#tumblr_bar {
+  position: absolute;
+  width: 4%;
+  height: 16%;
+  color: white;
+  background: #202328;
+  border-color: #2a2c30;
+  border-style: solid;
+  right: 11%;
+}
+
+#facebook_bar{
+  position: absolute;
+  width: 4%;
+  height: 16%;
+  color: white;
+  background: #202328;
+  border-color: #2a2c30;
+  border-style: solid;
+  right: 7%;
+}
+
+#search_bar {
+  position: absolute;
+  width: 4%;
+  height: 16%;
+  color: white;
+  background: #202328;
+  border-color: #2a2c30;
+  border-style: solid;
+  right: 3%;
+}
+
+#header_logo {
+  position: relative;
+  margin: -18% 0 0 3%;
+}
+
+#text_on_logo {
+  position: relative;
+  margin: -20% 0 0 0%;
+  width: 30%;
+  top: 30%;
+  left: 10%;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 200%;
+  text-align: left;
+  color: white;
+}
+
+#signup_form {
+  position: static;
+  width: 100%;
+  display: inline-block;
+  margin: 100px 0 0 0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+#signup_text {
+  position: static;
+  width:15%;
+  height: 100%;
+  top: 50px;
+  padding-left: 5%;
+}
+
+#form1 {
+  position: static;
+  width: 500px;
+  margin: auto;
+}
+
+.input {
+  padding-top: 2%;
+}
