@@ -1,3 +1,9 @@
+
+body{
+margin:0;
+padding:0;
+}
+
 #parent {
   width:100%;
   }
@@ -83,25 +89,27 @@ left: 3%;
   right: 3%;
 }
 
-#header_logo {
+#container {
   position: relative;
-  margin: -18% 0 0 3%;
+  background: yellow;
+  margin: -18% 3% 3% 3%;
 }
 
 #text_on_logo {
+  background: green;
   position: relative;
+  width: 70%;
   margin: -20% 0 0 0%;
-  width: 30%;
   top: 30%;
   left: 10%;
   font-family: 'Merriweather Sans', sans-serif;
-  font-size: 200%;
+  font-size: calc( (100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);
   text-align: left;
   color: white;
 }
 
 #signup_form {
-  position: static;
+
   width: 100%;
   display: inline-block;
   margin: 100px 0 0 0;
@@ -125,3 +133,4 @@ left: 3%;
 .input {
   padding-top: 2%;
 }
+
