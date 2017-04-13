@@ -6,7 +6,7 @@ $(document).ready(function() {
     var pixelsOffset = 1634;
     var currentValue = 0;
     var elementsCount = elementsList.find('li').length;
-    var minimumOffset = ((elementsCount - 4) * pixelsOffset);
+    var minimumOffset = ((elementsCount - 5) * pixelsOffset);
     var maximumOffset = 0;
 
     ArrowUp.click(function() {
