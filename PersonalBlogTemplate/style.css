@@ -1,107 +1,112 @@
-body{
-margin:0;
-padding:0;
-overflow-x: hidden;
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+button, input {
+    cursor: pointer;
 }
 
 #wrapper {
-  width:100%;
-  }
+    width: 100%;
+}
 
 #header {
-  position: relative;
-  width: auto;
-  top: 0;
+    position: relative;
+    width: auto;
+    top: 0;
 }
 
 #menu_wrapper {
-  position: static;
-  width: auto;
+    position: static;
+    width: auto;
 }
 
 #tittle {
     position: absolute;
-    margin-left: 50%;
+    margin-left: 47%;
     margin-top: 0.8%;
 }
 
-button, input {
-  cursor: pointer;
+#tittle img {
+  width: 10vw;
 }
 
 #menu_bar {
-position: absolute;
-width: 4%;
-height: 16%;
-color: white;
-background: #212429;
-border-color: #2a2c30;
-border-style: solid;
-left: 3%;
+    position: absolute;
+    width: 4%;
+    height: 16%;
+    color: white;
+    background: #212429;
+    border-color: #2a2c30;
+    border-style: solid;
+    left: 3%;
 }
 
 #rss_bar {
-  position: absolute;
-  width: 4%;
-  height: 16%;
-  color: white;
-  background: #212429;
-  border-color: #2a2c30;
-  border-style: solid;
-  right: 19%;
+    position: absolute;
+    width: 4%;
+    height: 16%;
+    color: white;
+    background: #212429;
+    border-color: #2a2c30;
+    border-style: solid;
+    right: 19%;
 }
 
 #twitter_bar {
-  position: absolute;
-  width: 4%;
-  height: 16%;
-  color: white;
-  background: #212429;
-  border-color: #2a2c30;
-  border-style: solid;
-  right: 15%;
+    position: absolute;
+    width: 4%;
+    height: 16%;
+    color: white;
+    background: #212429;
+    border-color: #2a2c30;
+    border-style: solid;
+    right: 15%;
 }
 
 #tumblr_bar {
-  position: absolute;
-  width: 4%;
-  height: 16%;
-  color: white;
-  background: #212429;
-  border-color: #2a2c30;
-  border-style: solid;
-  right: 11%;
+    position: absolute;
+    width: 4%;
+    height: 16%;
+    color: white;
+    background: #212429;
+    border-color: #2a2c30;
+    border-style: solid;
+    right: 11%;
 }
 
-#facebook_bar{
-  position: absolute;
-  width: 4%;
-  height: 16%;
-  color: white;
-  background: #212429;
-  border-color: #2a2c30;
-  border-style: solid;
-  right: 7%;
+#facebook_bar {
+    position: absolute;
+    width: 4%;
+    height: 16%;
+    color: white;
+    background: #212429;
+    border-color: #2a2c30;
+    border-style: solid;
+    right: 7%;
 }
 
 #search_bar {
-  position: absolute;
-  width: 4%;
-  height: 16%;
-  color: white;
-  background: #212429;
-  border-color: #2a2c30;
-  border-style: solid;
-  right: 3%;
+    position: absolute;
+    width: 4%;
+    height: 16%;
+    color: white;
+    background: #212429;
+    border-color: #2a2c30;
+    border-style: solid;
+    right: 3%;
 }
 
 #container {
-  position: relative;
-  margin: -18% 3% 3% 3%;
-  background: #f7f7f7;
+    position: relative;
+    margin: -18% 3% 3% 3%;
+    background: #f7f7f7;
 }
 
 #carousel_hider {
+    position: relative;
     width: 100%;
     overflow: hidden;
     float: left;
@@ -109,7 +114,7 @@ left: 3%;
 
 .carousel_list {
     list-style: none;
-    width: 4902px;
+    width: 4900px;
     margin: 0;
     padding: 0;
     position: relative;
@@ -121,109 +126,109 @@ left: 3%;
 }
 
 #text_on_banner {
-  position: absolute;
-  width: 50%;
-  margin: 10% 0 0 8%;
-  letter-spacing: 10px;
-  font-family: 'Hind', sans-serif;
-  font-size: calc( (100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);
-  text-align: left;
-  color: white;
+    position: absolute;
+    width: 50vw;
+    margin: 10% 0 0 5%;
+    letter-spacing: 0.325em;
+    font-family: 'Hind', sans-serif;
+    font-size: calc( (100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);
+    text-align: left;
+    color: white;
 }
 
 #selectors {
-  position: absolute;
-  width: 30%;
-  transform: rotate(-90deg);
-  margin: 18% 0 0 80%;
+    position: absolute;
+    width: 30vw;
+    transform: rotate(-90deg);
+    margin: 16% 0 0 80%;
 }
 
 #box_selectors {
-  margin-left: 20%;
-  width: 60%;
-  text-align: center;
-  cursor: pointer;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+    cursor: pointer;
 }
 
 #arrows_selectors {
-  width: 60%;
-  margin-left: 20%;
-  text-align: center;
-  color: white;
-  display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    color: white;
+    display: inline-block;
 }
 
 .arrow {
-  width:20%;
-  float: left;
-  cursor: pointer;
+    width: 20%;
+    float: left;
+    cursor: pointer;
 }
 
 .arrows_selectors_text {
-  width: 60%;
-  float: left;
+    width: 60%;
+    float: left;
 }
 
 #newsletter {
-  width: 100%;
-  font-family: 'Hind', sans-serif;
+    width: 100%;
+    font-family: 'Hind', sans-serif;
 }
 
 #newsletter_text {
-  display: inline-block;
-  width: 10%;
-  margin-left: 2.5%;
-  margin-top: 1%;
-  letter-spacing: 2px;
+    display: inline-block;
+    width: 10%;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    letter-spacing: 0.125em;
+    font-size: 1em;
 }
 
-#newsletter_form{
-  display: inline-block;
-  width: 80%;
-  margin-left: 3%;
-  margin-bottom: 1%;
-  text-align: center;
-  white-space: nowrap;
+#newsletter_form {
+    display: inline-block;
+    width: 80%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .input {
-  width: 33%;
-  height: 1em;
-  border: 0;
-  margin-left: 2%;
-  text-align: left;
-  padding: 1%;
+    width: 33%;
+    height: 1em;
+    border: 0;
+    margin-left: 2%;
+    text-align: left;
+    padding: 1%;
 }
 
 #subscribe_button {
-  width: 25%;
-  height: 3em;
-  margin-left: 2%;
-  border: 0;
-  text-align: center;
-  background: #212121;
-  color: white;
+    width: 25%;
+    height: 3em;
+    margin-left: 2%;
+    border: 0;
+    text-align: center;
+    background: #212121;
+    color: white;
 }
 
 #content {
-  display: inline-block;
-  margin-top: 10%;
-
+    display: inline-block;
+    margin-top: 10%;
 }
 
 #post_1 {
-  font-family: 'Hind', sans-serif;
-  text-align: center;
-  width: 20%;
-  background:
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    width: 20%;
+    background:
 }
 
 #blog_icon {
-  position: absolute;
-  background: black;
-  color: white;
-  width: 3%;
-  height: 3%;
-  margin: -1.5% 0 0 8%;
-  text-align: center;
+    position: absolute;
+    background: black;
+    color: white;
+    width: 3%;
+    height: 3%;
+    margin: -1.5% 0 0 8%;
+    text-align: center;
 }
