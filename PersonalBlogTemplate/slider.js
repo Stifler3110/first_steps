@@ -1,15 +1,15 @@
 $(document).ready(function() {
-    doSliderResponsive();
-    $(window).resize(function() {
-        doSliderResponsive();
-    });
-
     function doSliderResponsive() {
-        var $currentWidth = $('div#carousel_hider').width();
+        var $currentWidth = $('div.carousel_hider').width();
         $('.carousel_element img').css({
             "width": $currentWidth + "px"
         });
     }
+    doSliderResponsive();
+
+    $(window).resize(function() {
+        doSliderResponsive();
+    });
 
     var $elementsList = $('.carousel_list');
     var $currentValue = 0;
@@ -85,7 +85,7 @@ $(document).ready(function() {
 
     playSlides();
 
-    $("#selectors").hover(function() {
+    $(".selectors").hover(function() {
         clearInterval($play);
     }, function() {
         playSlides();
@@ -140,7 +140,7 @@ $(document).ready(function() {
             $("#box_three").attr("src", "https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/box_empty.jpg?raw=true");
         }
     }
-    
+
     activateNavigationBoxes();
 
 });

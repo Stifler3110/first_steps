@@ -4,49 +4,50 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="@media_query.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
     <script src="https://use.fontawesome.com/9193602dac.js"></script>
 </head>
 
 <body>
-    <div id="wrapper">
-        <div id="header">
-            <div id="tittle"><img src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/Logo.jpg?raw=true" /></div>
-            <div id="menu_wrapper" class="menu_wrapper">
+    <div class="wrapper">
+        <div class="header_background">
+            <img src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/header.jpg?raw=true" width="100%" />
+        </div>
+        <div class="header_wrapper">
+            <div class="menu_wrapper" class="menu_wrapper">
                 <button id="menu_bar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                <span id="tittle"><img src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/Logo.jpg?raw=true" alt=""></span>
                 <button id="rss_bar"><i class="fa fa-rss" aria-hidden="true"></i></button>
                 <button id="twitter_bar"><i class="fa fa-twitter" aria-hidden="true"></i></button>
                 <button id="tumblr_bar"><i class="fa fa-tumblr" aria-hidden="true"></i></button>
                 <button id="facebook_bar"><i class="fa fa-facebook" aria-hidden="true"></i></button>
                 <button id="search_bar"><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
-            <img src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/header.jpg?raw=true" width="100%" />
-        </div>
-        <div id="container">
-            <div id="carousel_hider">
+            <div class="carousel_hider">
                 <ul class="carousel_list">
-                    <li class="carousel_element"><img id="image1" src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/image_top.jpg?raw=true"/></li>
-                    <li class="carousel_element"><img id="image2" src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/image_middle.jpg?raw=true"/></li>
-                    <li class="carousel_element"><img id="image3" src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/image_down.jpg?raw=true"/></li>
+                    <li class="carousel_element"><img id="image1" src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/image_top.jpg?raw=true" /></li>
+                    <li class="carousel_element"><img id="image2" src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/image_middle.jpg?raw=true" /></li>
+                    <li class="carousel_element"><img id="image3" src="https://github.com/Stifler3110/first_steps/blob/master/PersonalBlogTemplate/images/image_down.jpg?raw=true" /></li>
                 </ul>
             </div>
-            <div id="text_on_banner"><span><h3><font size="3%">Latest News</font><br><b>BODYBUILDING BEST<br>FOR YOU HEALTH</b></h3></span></div>
-            <div id="selectors">
-                <div id="box_selectors">
+            <div class="text_on_banner"><span><h1><font size="3%">Latest News</font><br><b>BODYBUILDING BEST<br>FOR YOU HEALTH</b></h1></span></div>
+            <div class="selectors">
+                <div class="box_selectors">
                     <span id="box1"><img id="box_one" src=""/></span>
                     <span id="box2"><img id="box_two" src=""/></span>
                     <span id="box3"><img id="box_three" src=""/></span>
                 </div>
-                <div id="arrows_selectors">
+                <div class="arrows_selectors">
                     <div class="arrow" id="arrow_up"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></div>
                     <div class="arrows_selectors_text">FEATURED ARTICLE</div>
                     <div class="arrow" id="arrow_down"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
                 </div>
             </div>
-            <div id="newsletter">
-                <span id="newsletter_text"><b>SIGNUP TO<br>NEWSLETTER<b></span>
-                <div id="newsletter_form">
+            <div class="newsletter">
+                <span class="newsletter_text"><b>SIGNUP TO<br>NEWSLETTER<b></span>
+                <div class="newsletter_form">
                     <form>
                         <input class="input" placeholder="YOUR NAME">
                         <input class="input" type="email" placeholder="YOUR EMAIL ADDRESS">
@@ -54,21 +55,293 @@
                     </form>
                 </div>
             </div>
-            <div id="content">
-                <div id="post_1">
-                    <div id="blog_icon"><i class="fa fa-pencil fa-2x" aria-hidden="true"></i></div>
+        </div>
+        <!--the end of head wrapper-->
+        <div class="content">
+            <div class="main_content">
+                <div class="post1">
+                    <img src="https://blog.oup.com/wp-content/uploads/2015/08/city-sunny-people-street.jpg" alt="">
+                    <img id="pinterest_icon" src="images\pinterest.jpg" alt=""></span>
+                    <img id="picture1_icon" src="images\picture.jpg" alt="">
+                    <br>
+                    <br>
                     <h4>TRAVELLING</h4>
-                    <h2>TRAVEL BEST ADVENTURE</h2>
-                    <h4>JANUARY 25, 2016</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <button id="read_more_button">READ MORE</button>
+                    <h2>BE THE ONE TO STAND OUT IN THE CROWED</h2>
+                    <span><i class="fa fa-user" aria-hidden="true"></i></span>&nbsp;&nbsp;DIKE ACALISTER&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span><i class="fa fa-calendar" aria-hidden="true"></i></span>&nbsp;&nbsp;JANUARY 16/2016&nbsp;&nbsp;
+                    <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius pharetra elementum. Duis ac volutpat neque. Nulla hendrerit arcu purus, vel aliquam libero blandit sed. Nunc sed pellentesque tellus, at convallis massa. Maecenas
+                        consectetur nibh quis ex tincidunt, non rutrum lorem placerat. Morbi nibh tortor, viverra et venenatis sed, tempor in ex. Nunc erat massa, suscipit ut viverra non, gravida quis quam. Aliquam quis metus ac diam porttitor convallis.</p><br>
+                    <button type="button" name="post1_readmore_button" id="post1_readmore_button" class="readmore_button">READ MORE</button><br>
+                    <div class="comments_likes">
+                        <span><i class="fa fa-comments-o" aria-hidden="true"></i></span>&nbsp;&nbsp;06 COMMENT&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>&nbsp;&nbsp;LIKE 25&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="social_icons">
+                        <span><i class="fa fa-dribbble" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-facebook" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-twitter" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-pinterest" aria-hidden="true"></i></span>
+                    </div>
                 </div>
-                <div id="post_2"><video></video></div>
+                <div class="post2">
+                    <div class="post2_images">
+                        <div class="first images_block">
+                            <img src="http://izans.ru/images/wallpapers/details/_15/1012132014_1846446088.jpg" alt="">
+                            <img src="https://img1.goodfon.ru/wallpaper/big/9/ef/nogi-kedy-vysota-gorod-doma-ulitsy-doroga-vid-sverkhu.jpg" alt="">
+                        </div>
+                        <div class="second images_block">
+                            <img src="http://femenograd.ru/sites/femenograd.ru/files/styles/large/public/field/image/femenograd.ru_lana_del_ray_stil_0.jpg?itok=oimNsmpl" alt="">
+                        </div>
+                        <div class="third images_block">
+                            <img src="http://www.rollingstone.ru/media/pic/_original/3/ozzi_osborn_4.jpg" alt="">
+                            <img src="https://68.media.tumblr.com/2e43ac554d2e2a52a06484cdb2c16d0f/tumblr_inline_nraix2PplP1tof6dn_500.gif" alt="">
+                        </div>
+                    </div>
+                    <img id="picture2_icon" src="images\picture.jpg" alt="">
+                    <br>
+                    <br>
+                    <h4>FASHION &amp; ADVENTURE</h4>
+                    <h2>FASHION AND ADVENTURE IN THE WORLD</h2>
+                    <span><i class="fa fa-user" aria-hidden="true"></i></span>&nbsp;&nbsp;JHONE ALBERT&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span><i class="fa fa-calendar" aria-hidden="true"></i></span>&nbsp;&nbsp;JANUARY 16/2016&nbsp;&nbsp;
+                    <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius pharetra elementum. Duis ac volutpat neque. Nulla hendrerit arcu purus, vel aliquam libero blandit sed. Nunc sed pellentesque tellus, at convallis massa. Maecenas
+                        consectetur nibh quis ex tincidunt, non rutrum lorem placerat. Morbi nibh tortor, viverra et venenatis sed, tempor in ex. Nunc erat massa, suscipit ut viverra non, gravida quis quam. Aliquam quis metus ac diam porttitor convallis.</p><br>
+                    <button type="button" name="post1_readmore_button" id="post1_readmore_button" class="readmore_button">READ MORE</button><br>
+                    <div class="comments_likes">
+                        <span><i class="fa fa-comments-o" aria-hidden="true"></i></span>&nbsp;&nbsp;06 COMMENT&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>&nbsp;&nbsp;LIKE 25&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="social_icons">
+                        <span><i class="fa fa-dribbble" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-facebook" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-twitter" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-pinterest" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <img id="quote_icon" src="images\quote.jpg" alt="">
+                <div class="quote">
+                    <p>IT'S ABOUT HAVING AN ACTIVE LIFESTYLE, STAYING HEALTHY, AND MAKING THE RIGHT DECISIONS. LIFE IS ABOUT BALANCE. NOT EVERYBODY WANTS TO RUN A MARATHON, BUT WE COULD ALL START WORKING OUT AND BEING ACTIVE, WHETHER YOU WALK TO WORK OR
+                        TAKE AN EXTRA FLIGHT OF STAIRS.</p>
+                    <br>APOLO OHNO
+                </div>
+                <div class="vimeo">
+                    <iframe src="https://player.vimeo.com/video/171768408" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <br>
+                    <h4>TRAVELLING</h4>
+                    <h2>BEN STURGULEWSKI CINEMATOGRAPHY REEL :: STURGEFILM <br> ADVENTURE &amp; TRAVELLING 2016</h2>
+                    <span><i class="fa fa-user" aria-hidden="true"></i></span>&nbsp;&nbsp;DIKE ACALISTER&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span><i class="fa fa-calendar" aria-hidden="true"></i></span>&nbsp;&nbsp;JANUARY 16/2016&nbsp;&nbsp;
+                    <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius pharetra elementum. Duis ac volutpat neque. Nulla hendrerit arcu purus, vel aliquam libero blandit sed. Nunc sed pellentesque tellus, at convallis massa. Maecenas
+                        consectetur nibh quis ex tincidunt, non rutrum lorem placerat. Morbi nibh tortor, viverra et venenatis sed, tempor in ex. Nunc erat massa, suscipit ut viverra non, gravida quis quam. Aliquam quis metus ac diam porttitor convallis.</p><br>
+                    <button type="button" name="post1_readmore_button" id="post1_readmore_button" class="readmore_button">READ MORE</button><br>
+                    <div class="comments_likes">
+                        <span><i class="fa fa-comments-o" aria-hidden="true"></i></span>&nbsp;&nbsp;06 COMMENT&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>&nbsp;&nbsp;LIKE 25&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="social_icons">
+                        <span><i class="fa fa-dribbble" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-facebook" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-twitter" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-pinterest" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <div class="soundcloud">
+                    <iframe width="100%" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/57645202&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                    <br>
+                    <h4>LIFESTYLE</h4>
+                    <h2>MY JORNEY TOWARDS A MINIMALIST LIFESTYLE</h2>
+                    <span><i class="fa fa-user" aria-hidden="true"></i></span>&nbsp;&nbsp;KENDRICK LAMAR&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span><i class="fa fa-calendar" aria-hidden="true"></i></span>&nbsp;&nbsp;JANUARY 28/2016&nbsp;&nbsp;
+                    <p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius pharetra elementum. Duis ac volutpat neque. Nulla hendrerit arcu purus, vel aliquam libero blandit sed. Nunc sed pellentesque tellus, at convallis massa. Maecenas
+                        consectetur nibh quis ex tincidunt, non rutrum lorem placerat. Morbi nibh tortor, viverra et venenatis sed, tempor in ex. Nunc erat massa, suscipit ut viverra non, gravida quis quam. Aliquam quis metus ac diam porttitor convallis.</p><br>
+                    <button type="button" name="post1_readmore_button" id="post1_readmore_button" class="readmore_button">READ MORE</button><br>
+                    <div class="comments_likes">
+                        <span><i class="fa fa-comments-o" aria-hidden="true"></i></span>&nbsp;&nbsp;06 COMMENT&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-heart-o" aria-hidden="true"></i></span>&nbsp;&nbsp;LIKE 25&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="social_icons">
+                        <span><i class="fa fa-dribbble" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-facebook" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-twitter" aria-hidden="true"></i></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span><i class="fa fa-pinterest" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!--the end of main_content-->
+            <aside class="sidebar_wrapper">
+                <!--sidebar is beginning-->
+                <div class="sidebar">
+                    <div class="sidebar_search_form">
+                        <form class="search_form" action="index.html" method="post">
+                            <input id="search_form" type="text" name="search" placeholder="SEARCH">
+                            <button type="submit" id="sidebar_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                    <img id="sidebarImage1" src="images\sidebarImage1.jpg" alt="">
+                    <div class="categories">
+                        <h3>CATEGORIES</h3>
+                        <table cellspacing="20px" id="categories">
+                            <tr>
+                                <td class="leftcol" width="50%">LIFESTYLE</td>
+                                <td class="rightcol" width="50%">98</td>
+                            </tr>
+                            <tr>
+                                <td class="leftcol" width="50%">AUDIO</td>
+                                <td class="rightcol" width="50%">102</td>
+                            </tr>
+                            <tr>
+                                <td class="leftcol" width="50%">GALLERY</td>
+                                <td class="rightcol" width="50%">83</td>
+                            </tr>
+                            <tr>
+                                <td class="leftcol" width="50%">IMAGE</td>
+                                <td class="rightcol" width="50%">04</td>
+                            </tr>
+                            <tr>
+                                <td class="leftcol" width="50%">STANDARD</td>
+                                <td class="rightcol" width="50%">109</td>
+                            </tr>
+                            <tr>
+                                <td class="leftcol" width="50%">STATUS</td>
+                                <td class="rightcol" width="50%">50</td>
+                            </tr>
+                            <tr>
+                                <td class="leftcol" width="50%">VIDEO</td>
+                                <td class="rightcol" width="50%">102</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="sidebar_slider1_hider">
+                        <ul class="sidebar_slider1_list">
+                            <li class="slider1_element"><img src="images\sidebarSlider1image1.jpg" alt=""></li>
+                            <li class="slider1_element"><img src="images\sidebarSlider1image2.jpg" alt=""></li>
+                            <li class="slider1_element"><img src="images\sidebarSlider1image3.jpg" alt=""></li>
+                            <li class="slider1_element"><img src="images\sidebarSlider1image4.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="latest_post">
+                        <h3>LATEST POST</h3>
+                        <table id="latest_post">
+                            <tr>
+                                <td class="col1"><img src="images\jurney.jpg" alt=""></td>
+                                <td class="col2">
+                                    <h4>JURNEY TOWARDS A LIFESTYLE</h4>
+                                    <p>JAN 16 2015 &nbsp;LIKE 255</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col1"><img src="images\fashionable.jpg" alt=""></td>
+                                <td class="col2">
+                                    <h4>FASHIONABLE SHOES FOR MEN</h4>
+                                    <p>JAN 18 2015 &nbsp;LIKE 26</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col1"><img src="images\awesome.jpg" alt=""></td>
+                                <td class="col2">
+                                    <h4>REALLY AWESOME'S ADVENTURES</h4>
+                                    <p>JAN 23 2015 &nbsp;LIKE 23</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col1"><img src="images\hunting.jpg" alt=""></td>
+                                <td class="col2">
+                                    <h4>MAN HUNTING IN JUNGLE</h4>
+                                    <p>JAN 16 2015 &nbsp;LIKE 29</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="sidebar_social_icons">
+                        <button class="sidebar_social_icons_element"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></button>
+                        <button class="sidebar_social_icons_element"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></button>
+                        <button class="sidebar_social_icons_element"><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></button>
+                        <button class="sidebar_social_icons_element"><i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></button>
+                        <button class="sidebar_social_icons_element"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></button>
+                    </div>
+                    <div class="sidebar_slider2">
+                        <div id="sidebar_slider2_leftArrow">
+                            <img src="images\slider2LeftArrow.jpg" alt="">
+                        </div>
+                        <div class="sidebar_slider2_hider">
+                            <ul class="sidebar_slider2_list">
+                                <li class="slider2_element"><img src="images\bicycle1.jpg" alt=""></li>
+                                <li class="slider2_element"><img src="images\bicycle2.jpg" alt=""></li>
+                                <li class="slider2_element"><img src="images\bicycle3.jpg" alt=""></li>
+                                <li class="slider2_element"><img src="images\bicycle4.jpg" alt=""></li>
+                                <li class="slider2_element"><img src="images\bicycle5.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                        <div id="sidebar_slider2_rightArrow">
+                            <img src="images\slider2RightArrow.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="facebook">
+                        <img src="images\facebook.jpg" width="100%" alt="">
+                    </div>
+                </div>
+                <!--the end of sidebar-->
+            </aside>
+            <!--the end of sidebar wrapper-->
+        </div>
+        <!--the end of content-->
+        <div class="footer">
+            <div class="footer_content">
+                <div class="about_blog">
+                    <h3>ABOUT BLOG</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="about_blog_image">
+                        <img src="https://c1.staticflickr.com/4/3829/13687821134_d1bf15910c_b.jpg" alt="">
+                    </div>
+                </div>
+                <div class="latest_tweets">
+                    <h3>LATEST TWEETS</h3>
+                    <p><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;@Twitter@magicalrebecah&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>Developer Advocate @heyval isaiyou knows the very well about things.</p>
+                    <br>
+                    <p><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;&nbsp;@Twitter@magicalrebecah&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>Developer Advocate have a great work this knows the very well is about things.</p>
+                </div>
+                <div class="follow_instagram">
+                    <h3>FOLLOW ME INSTAGRAM</h3>
+                    <br>
+                    <div class="follow_instagram_images">
+                        <div class="instagram_images block1">
+                            <img src="https://img-s3.onedio.com/id-57b63512736582940c5f413e/rev-0/raw/s-cf7f9d2872e95b2fa7ad21ef665c8953e09ed6f8.jpg" alt="">
+                            <img src="http://www.picxclicx.com/wp-content/uploads/2017/02/00609_Laptop-Computer-and-Iphone-4_LR__DSC7386.jpg" alt="">
+                        </div>
+                        <div class="instagram_images block2">
+                            <img src="http://covercdn.complex.com/legacy-assets/lana_assets/images/lana3.png" alt="">
+                            <img src="https://s-media-cache-ak0.pinimg.com/originals/59/6b/ec/596bec39dae1d4044a244ed0417c2fa6.jpg" alt="">
+                        </div>
+                        <div class="instagram_images block3">
+                            <img src="http://setfon.com/large/201509/53301.jpg" alt="">
+                            <img src="http://3.bp.blogspot.com/-8PyW2Uh5i-o/UdGu3XRB8hI/AAAAAAAABjU/hmtcV_PCqXI/s1600/skogafoss_waterfall_iceland.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="latest_comment">
+                    <h3>LATEST COMMENT</h3>
+                    <p>From Alex:</p>
+                    <p>Developer Advocate @heyval isaiyou know the very well is talking about things.</p>
+                    <hr>
+                    <p>From Jhon Doe:</p>
+                    <p>Developer Advocate @heyval isaiyou know the very well is talking about things.</p>
+                    </hr>
+                </div>
+            </div>
+            <!--the end of footer content-->
+            <div class="footer_line">
+                <p>&copy;2015 COPYRIGHT ALL RIGHTS RESERVED BY AWESOME THEME &nbsp;|&nbsp; TERMS POLICY &nbsp;|&nbsp; DISCLAIMER</p>
             </div>
         </div>
-      </div>
+        <!--the end of footer-->
+    </div>
+    <!--the end of wrapper-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="sidebarSlider1.js"></script>
+    <script src="sidebarSlider2.js">
+    </script>
     <script src="slider.js"></script>
 </body>
 
