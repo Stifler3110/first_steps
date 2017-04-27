@@ -503,14 +503,14 @@ h2 {
 
 #sidebar_slider2_leftArrow {
     position: absolute;
-    margin: 89% 0% 0% 0%;
+    margin: 90% 0% 0% 0%;
     z-index: 1;
     cursor: pointer;
 }
 
 #sidebar_slider2_rightArrow {
     position: absolute;
-    margin: 89% 0% 0% 18.7%;
+    margin: 90% 0% 0% 18.7%;
     z-index: 1;
     cursor: pointer;
 }
