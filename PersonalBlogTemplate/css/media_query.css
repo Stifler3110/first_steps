@@ -1,0 +1,354 @@
+@media screen and (max-width: 1420px) {
+    .header_background img {
+        height: 14.25em;
+    }
+    .text_on_banner {
+        letter-spacing: 0.425em;
+        font-size: 0.9em;
+    }
+    .arrows_selectors_text {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .header_background img {
+        height: 15.25em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .header_background img {
+        height: 13.25em;
+    }
+    .text_on_banner {
+        font-size: 0.8em;
+    }
+    .arrows_selectors_text {
+        font-size: 0.7em;
+    }
+    .footer {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .newsletter_text {
+        letter-spacing: 0.125em;
+        font-size: 0.8em;
+    }
+    .input {
+        height: 0.8em;
+    }
+    #subscribe_button {
+        height: 2.5em;
+    }
+    .main_content p {
+        font-size: 0.8em;
+    }
+    .main_content span {
+        font-size: 0.9em;
+    }
+    h2 {
+        font-size: 1em
+    }
+    h3 {
+        font-size: 0.9em
+    }
+    h4 {
+        font-size: 0.9em;
+    }
+    .readmore_button {
+        font-size: 0.7em;
+    }
+    .vimeo iframe {
+      height: 25em;
+    }
+    .sidebar {
+        font-size: 0.9em;
+    }
+    .footer {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header_background img {
+        height: 11.25em;
+    }
+    .text_on_banner {
+        font-size: 0.6em;
+    }
+    .arrows_selectors_text {
+        font-size: 0.6em;
+    }
+    .newsletter_text {
+        font-size: 0.7em;
+    }
+    .post2_images {
+        height: 20em;
+    }
+    .vimeo iframe {
+      height: 20em;
+    }
+}
+
+@media screen and (max-width: 845px) {
+    .header_background img {
+        height: 9.25em;
+    }
+    .text_on_banner {
+        font-size: 0.5em;
+    }
+    .arrows_selectors_text {
+        font-size: 0.5em;
+    }
+    .newsletter_text {
+        font-size: 0.6em;
+    }
+    .input {
+        height: 0.6em;
+        font-size: 0.5em;
+    }
+    #subscribe_button {
+        height: 3em;
+        font-size: 0.5em;
+    }
+    .main_content p {
+        font-size: 0.7em;
+    }
+    .main_content span {
+        font-size: 0.8em;
+    }
+    .post2_images {
+        height: 18em;
+    }
+    .vimeo iframe {
+      height: 15em;
+    }
+    .readmore_button {
+        font-size: 0.5em;
+    }
+    #search_form {
+        font-size: 0.6em;
+    }
+    #sidebar_search_button {
+        font-size: 0.6em;
+    }
+    .sidebar_social_icons_element {
+        font-size: 0.8em;
+    }
+    .sidebar {
+        font-size: 0.8em;
+    }
+    .footer {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header_background {
+        display: none;
+    }
+    .header_right_bar {
+        display: none;
+    }
+    .header_wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    .carousel {
+        display: none;
+    }
+    .newsletter_text {
+        width: 100%;
+        font-size: 0.8em;
+        letter-spacing: 0.325em;
+        text-align: center;
+        display: block;
+    }
+    .newsletter_form {
+        display: block;
+        width: 100%;
+    }
+    .input {
+        width: 33%;
+        display: block;
+        margin-left: 33%;
+        margin-top: 1%;
+        height: 0.8em;
+    }
+    #subscribe_button {
+        width: 35%;
+        display: block;
+        margin-left: 33%;
+        margin-top: 1%;
+    }
+    .main_content {
+        width: 100%;
+    }
+    .main_content p {
+        font-size: 0.6em;
+    }
+    .main_content span {
+        font-size: 0.7em;
+    }
+    h2 {
+        font-size: 0.9em
+    }
+    h3 {
+        font-size: 0.8em
+    }
+    h4 {
+        font-size: 0.8em;
+    }
+    #pinterest_icon {
+        right: 0;
+        top: 0;
+    }
+    #picture1_icon {
+        width: 5%;
+        position: absolute;
+        left: 48%;
+        margin-top: 36%;
+    }
+    .post2_images {
+        height: 15em;
+    }
+    #picture2_icon {
+        width: 5%;
+        position: absolute;
+        left: 48%;
+        margin-top: -2%;
+    }
+    .vimeo iframe {
+        height: 10em;
+    }
+    .quote {
+        height: 6em;
+        font-size: 0.8em;
+    }
+    .soundcloud iframe {
+        height: 10em;
+    }
+    .sidebar_wrapper {
+        display: none;
+    }
+    .footer {
+        font-size: 0.4em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .newsletter_text {
+        font-size: 0.7em;
+        letter-spacing: 0.225em;
+    }
+    .main_content p {
+        font-size: 0.4em;
+    }
+    .main_content span {
+        font-size: 0.5em;
+    }
+    h2 {
+        font-size: 0.7em
+    }
+    h3 {
+        font-size: 0.6em
+    }
+    h4 {
+        font-size: 0.6em;
+    }
+    .post2_images {
+        height: 10em;
+    }
+    .quote {
+        font-size: 0.6em;
+    }
+    .vimeo iframe {
+        height: 8em;
+    }
+    .soundcloud iframe {
+        height: 8em;
+    }
+    .sidebar_wrapper {
+        display: none;
+    }
+    .footer {
+        font-size: 0.2em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .newsletter_text {
+        font-size: 0.5em;
+        letter-spacing: 0.125em;
+    }
+    .main_content p {
+        font-size: 0.5em;
+    }
+    .main_content span {
+        font-size: 0.2em;
+    }
+    h2 {
+        font-size: 0.7em
+    }
+    h3 {
+        font-size: 0.6em
+    }
+    h4 {
+        font-size: 0.6em;
+    }
+    .post2_images {
+        height: 10em;
+    }
+    .quote {
+        height: 10em;
+        font-size: 0.4em;
+    }
+    .soundcloud iframe {
+        height: 5em;
+    }
+    .footer {
+        font-size: 3px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+.input {
+font-size: 0.4em;
+}
+#subscribe_button {
+font-size: 0.4em;
+}
+  .main_content span {
+      font-size: 3px;
+  }
+  h2 {
+      font-size: 0.6em
+  }
+  h3 {
+      font-size: 0.5em
+  }
+  h4 {
+      font-size: 0.5em;
+  }
+  .readmore_button {
+    font-size: 0.4em;
+  }
+  .post2_images {
+      height: 5em;
+  }
+  .quote {
+    height: 8em;
+  }
+  .vimeo iframe {
+    height: 4em;
+  }
+}
